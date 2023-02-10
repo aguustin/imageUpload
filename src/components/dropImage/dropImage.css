@@ -1,0 +1,77 @@
+.form-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.form-file-drag{
+    position: relative;
+    width: 400px;
+    margin: 0px auto;
+    top:12vh;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.63);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.63);
+    
+}
+
+
+.file-upload-drag{
+    border-style: dashed;
+    border-color: rgb(145, 145, 145);
+    width: 330px;
+    height: 200px;
+    background-color: rgb(196, 196, 196);
+}
+
+img{
+    width: 320px;
+}
+
+.title-desc{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.form-label{
+    position: absolute;
+    margin-top: 10px;
+}
+
+.form-group{
+ width: 100%;
+ margin-top: 35px;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ outline: none;
+ border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.form-group:focus + .form-label,
+.form-group:not(:placeholder-shown) + .form-label{
+    transform: translateY(-5px) scale(1);
+    transform-origin: left top;
+    color: rgb(97, 108, 207);
+    transition: all .3s;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(83, 83, 204);
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    padding: 1em 1em;
+}
+
+#upload:hover{
+    background-color: rgb(71, 71, 158);
+    padding: 1em 2em;
+    transition: all .3s;
+}

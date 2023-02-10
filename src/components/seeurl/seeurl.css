@@ -1,0 +1,46 @@
+
+.form-container-see{
+    position: relative;
+    width: 400px;
+    margin: 0px auto;
+    top:16vh;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.63);
+    -moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.63);
+}
+
+
+.lc{
+    display: flex;
+}
+
+input{
+    width: 75%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    outline: none;
+    margin-top: 10px;
+}
+
+.copylink{
+    color: black;
+    background-color: rgb(216, 216, 216);
+}
+
+.copylink:hover{
+ background-color: rgb(168, 168, 168);
+}
+
+.allimages{
+    position: relative;
+}
+
+.allimages:hover{
+    background-color: rgb(71, 71, 158);
+    padding: 1em 2em;
+    transition: all .3s;
+}

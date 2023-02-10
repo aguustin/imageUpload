@@ -1,0 +1,36 @@
+.allimg{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.imgs{
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.imgs:hover{
+    filter: brightness(80%) drop-shadow(5px 5px 10px rgb(152, 68, 221));
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.delete{
+    background-color: rgb(224, 4, 4);
+    border-radius: 2px;
+    padding: .5em .5em;
+    position: relative;
+    left: 4rem;
+    bottom: 1.3rem;
+    z-index: 1;
+}
+
+.delete:hover{
+    
+    filter: brightness(120%);
+}

@@ -1,0 +1,41 @@
+.bar{
+    position: relative;
+    top: 19rem;
+    margin: 0 auto;
+    background-color: #e9e9e9;
+    width: 400px;
+    padding: 1em 1em;
+    border-radius: 10px;
+    box-shadow: 7px 6px 5px 0px rgba(163,163,163,0.75);
+    -webkit-box-shadow: 7px 6px 5px 0px rgba(163,163,163,0.75);
+    -moz-box-shadow: 7px 6px 5px 0px rgba(163,163,163,0.75);
+    
+    
+}
+
+p{
+    position: relative;
+    top:-.8rem;
+}
+
+.progressbar{
+	position: relative;
+	overflow: hidden;
+	width: 350px;
+	height: 18px;
+	border-radius: 5px;
+	background-color: #eee;
+    margin: 0 auto;
+}
+
+.progress{
+	font-weight: 600;
+	font-family:'Franklin Gothic Medium';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #eee;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
